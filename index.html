@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <meta charset= "UTF-8"> 
+        <title>Mi página web</title>
+        <style>
+            header{
+                background-color: rgb(10, 183, 145);
+                background-image: url('imagenes/yo.jpeg');
+                background-size: contain;
+                background-position: center;
+                padding: 20px;
+
+            }
+             body{
+                background-color: rgb(242, 255, 0);
+                font-family: 'Times New Roman', Times, serif, sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+            }
+            h1, h2, h3, h4{
+                color:rgb(255, 255, 255);
+                text-align: center;
+                padding: 20px;
+            }
+
+            article{
+                background-color: rgba(136, 136, 136, 0.551);
+                padding: 50px;
+                margin-bottom: 20px;
+                border-radius: 15px;
+                box-shadow: 0 0 10px rgb(0, 0, 0); 
+            }
+
+            main{
+                padding: 20px;
+            }
+            section{
+                background-color: rgba(147, 147, 147, 0.527);
+                padding: 50px;
+                margin-bottom: 20px;
+                border-radius: 15px;
+                box-shadow: 0 0 10px rgb(0, 0, 0);
+            }
+            .verde{ 
+                font-weight: bold;
+                color:rgb(1, 63, 17)
+            }
+            .azul{ 
+                font-weight: bold;
+                color:rgb(1, 23, 63)
+            }
+            .lista{
+                font-size: 24px;
+            }
+            footer{
+                background-color: rgb(255, 183, 0);
+                text-align: center;
+                color:white;
+                padding: 10px;
+            }
+            .fab{/*.class*/
+                font-size: 30px;
+                color: white;
+            }
+            .fab:hover{
+                color:rgb(117, 0, 163);
+            }
+            aside{
+                background-color: rgba(95, 158, 160, 0.577);
+                border-left: 4px solid blueviolet;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Luis Manuel Antonio Gutierrez Hernandez</h1>
+        </header>
+
+        <main>
+            <section>
+                <h2>¿Quién soy yo?</h2>
+                <p>
+                Me llamo <u>Luis Manuel Antonio Gutierrez Hernandez</u>
+                pero me gusta que me digan <b>Manuel o Manu</b>, me gusta <i>escuchar música,
+                dibujar, pintar, leer y escribir</i> (<small>aunque en esto ultimo no soy tan bueno</small>).
+                Me encuentro estudiando en la <mark>UTL</mark> en la carrera de Entornos Virtuales y Negocios Digitales.
+                </p>
+            </section>
+
+            <article id="contenido">
+                <h2>Mi familia</h2>
+                <div style="text-align: center;"></div>
+                <table border="2" style="margin: 0 auto;">
+                    <tr>
+                        <th colspan="2">Nombre</th>
+                        <th>Familiar</th>
+                        <th>¿A qué se dedica?</th>
+                        <th>Color favorito</th>
+                    </tr>
+                    <tr>
+                        <td>Ivan</td>
+                        <td>Gutierrez</td>
+                        <td>Padre</td>
+                        <td>Trabaja</td>
+                        <td><span class="verde">Verde</span></td>
+                    </tr>
+                    <tr>
+                        <td>Adriana</td>
+                        <td>Hernandez</td>
+                        <td>Madre</td>
+                        <td>Ama de casa</td>
+                        <td><span class="azul">Azul</span></td>
+                    </tr>
+                    <tr>
+                        <td>Adrian</td>
+                        <td>Gutierrez</td>
+                        <td>Hermano</td>
+                        <td>Trabaja</td>
+                        <td><span class="azul">Azul</span></td>
+                    </tr>
+                     <tr>
+                        <td>Mariano</td>
+                        <td>Gutierrez</td>
+                        <td>Hermano</td>
+                        <td>Estudia</td>
+                        <td><span class="verde">Verde</span></td>
+                    </tr>
+                </table>
+                <br>
+                <div style="text-align: center;">
+                <img src="C:\Users\manug\OneDrive\Desktop\Practicas_LEVN401\act4_webPersonal\imagenes\familia.jpg" 
+                width="400">
+                </div>
+            </article>
+
+            <section>
+                <h2>Este es mi video favorito</h2>
+                <iframe width="600" height="350" src="https://www.youtube.com/embed/XbLemOwzdxk?si=a2hySHL40TCfdlcT" 
+                title="YouTube video" frameborder="0" allowfullscreen></iframe>
+            </section>
+
+            <article>
+                <h2>Cosas que me gustaria hacer</h2>
+                <ul class="lista">
+                    <li>Viajar a italia</li>
+                    <li>Tener una casa</li>
+                    <li>Tener un trabajo donde tenga mayor tiempo libre 
+                        para hacer más cosas</li>
+                    <li>Emprender un negocio</li>
+                </ul>
+            </article>
+            <aside>
+                    <h4>Dato curioso</h4>
+                    <P>Uno de mis poemas favoritos es: <q>Me perdí en su
+                    mirada, es que el color de sus ojos me encantaban; no eran ni azules ni verdes.
+                    Eran color café, café que quita el sueño, café que produce desvelos.   
+                    </q> Mario Benedetti.</P>
+            </aside>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Mi página web | Contacto: manugtzhdz@gmail.com 
+                Tel:4792316291</p>
+            <nav>
+                <a href="https://www.instagram.com/_mmanup_?igsh=YWt5aHU2aXBvcW1s" 
+                target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.tiktok.com/@manu23_gh?_t=ZS-8zvPYlzEneX&_r=1" 
+                target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                
+        </footer>
+
+    </body>
+
+
+</html>
